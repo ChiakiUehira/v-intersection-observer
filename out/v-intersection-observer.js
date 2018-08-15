@@ -60,7 +60,7 @@ io.install = function (Vue) {
 
       if (state) {
         var options = io.createOptions(el, value);
-        state.createObserver(options, vnode);
+        io.createObserver(options, vnode);
       } else {
         this.bind(el, {
           value: value

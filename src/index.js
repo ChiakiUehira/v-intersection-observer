@@ -45,7 +45,7 @@ io.install = (Vue) => {
       const state = el.IO_STATE
       if (state) {
         const options = io.createOptions(el, value)
-        state.createObserver(options, vnode)
+        io.createObserver(options, vnode)
       } else {
         this.bind(el, { value }, vnode)
       }

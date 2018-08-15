@@ -1,6 +1,6 @@
 {
   "name": "@pixelgram/v-intersection-observer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "IntersectionObserver for Vue.js",
   "main": "out/v-intersection-observer.js",
   "scripts": {
