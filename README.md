@@ -1,4 +1,4 @@
-# v-feedback
+# v-intersection-observer
 > IntersectionObserver for Vue.js
 
 ## What
@@ -18,6 +18,9 @@ Vue.use(IO)
 ```
 
 ## Usage
+```html
+<div v-io>...</div>
+```
 
 ## License
 [MIT](http://opensource.org/licenses/MIT) © 2016 [c.uehira](https://github.com/in-the-box).
