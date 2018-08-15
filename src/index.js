@@ -1,5 +1,3 @@
-import 'intersection-observer'
-
 const io = {}
 io.createObserver = (options, vnode) => {
   const observer = new IntersectionObserver((entries) => {

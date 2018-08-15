@@ -47,41 +47,5 @@ The content of the option is compatible with [Intersection Observer API](https:/
 
 ``once {Boolean} || true``
 
-## Polyfill
-This plug-in contains the polyfill of IntersectionObserver and corresponds to the following browsers.
-
-<table>
-  <tr>
-    <td align="center">
-      <img src="https://raw.github.com/alrra/browser-logos/39.2.2/src/chrome/chrome_48x48.png" alt="Chrome"><br>
-      :heavy_check_mark:
-    </td>
-    <td align="center">
-      <img src="https://raw.github.com/alrra/browser-logos/39.2.2/src/firefox/firefox_48x48.png" alt="Firefox"><br>
-      :heavy_check_mark:
-    </td>
-    <td align="center">
-      <img src="https://raw.github.com/alrra/browser-logos/39.2.2/src/safari/safari_48x48.png" alt="Safari"><br>
-      6+
-    </td>
-    <td align="center">
-      <img src="https://raw.github.com/alrra/browser-logos/39.2.2/src/edge/edge_48x48.png" alt="Edge"><br>
-      :heavy_check_mark:
-    </td>
-    <td align="center">
-      <img src="https://raw.github.com/alrra/browser-logos/39.2.2/src/archive/internet-explorer_7-8/internet-explorer_7-8_48x48.png" alt="Internet Explorer"><br>
-      7+
-    </td>
-    <td align="center">
-      <img src="https://raw.github.com/alrra/browser-logos/39.2.2/src/opera/opera_48x48.png" alt="Opera"><br>
-      :heavy_check_mark:
-    </td>
-    <td align="center">
-      <img src="https://raw.github.com/alrra/browser-logos/39.2.2/src/android/android_48x48.png" alt="Android"><br>
-      4.4+
-    </td>
-  </tr>
-</table>
-
 ## License
 [MIT](http://opensource.org/licenses/MIT) :copyright: 2016 [c.uehira](https://github.com/in-the-box).

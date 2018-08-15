@@ -4,7 +4,7 @@
   "description": "IntersectionObserver for Vue.js",
   "main": "out/v-intersection-observer.js",
   "scripts": {
-    "build": "NODE_ENV=production ./node_modules/.bin/webpack",
+    "build": "NODE_ENV=production ./node_modules/.bin/babel src/ -o out/v-intersection-observer.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "c.uehira <c.uehira@pixelgram.jp> (https://pixelgram.jp)",
@@ -20,14 +20,9 @@
     "plugin"
   ],
   "devDependencies": {
+    "@babel/cli": "^7.0.0-rc.1",
     "@babel/core": "^7.0.0-rc.1",
-    "@babel/preset-env": "^7.0.0-rc.1",
-    "babel-loader": "^8.0.0-beta.4",
-    "webpack": "^4.16.5",
-    "webpack-cli": "^3.1.0",
-    "webpack-serve": "^2.0.2"
+    "@babel/preset-env": "^7.0.0-rc.1"
   },
-  "dependencies": {
-    "intersection-observer": "^0.5.0"
-  }
+  "dependencies": {}
 }
